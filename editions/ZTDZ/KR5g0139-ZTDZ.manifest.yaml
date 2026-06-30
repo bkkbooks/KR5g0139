@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0139/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5g0139/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞真太一帝君太丹隱書洞真玄經
+  date: '2015-08-29 02:58:29.632727'
+  source:
+    repository: kanripo
+    path: KR5g0139
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0139_000-ZTDZ.yaml, hash: 'sha256:a37ea2058278f2217690c6384e4b01c54076afd399f89bddd867a266a3b47876'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0139_000-ZTDZ.markers.yaml, hash: 'sha256:abc6d61e9517a11d87bef4bd4b798d7fc62f9a9187d436e153654132d3cc451d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0139_SJB_000-330528c
+    span:
+    - body
+    - 0
+    - 13965
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:98f006b6b0056ce3b9e2f906eb58d98b82fc72ad6b960f5d43a25ebf87fa72e5

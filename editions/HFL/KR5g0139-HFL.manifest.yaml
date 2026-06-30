@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5g0139/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5g0139/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞真太一帝君太丹隱書洞真玄經
+  date: '2015-08-29 02:58:29.632727'
+  source:
+    repository: kanripo
+    path: KR5g0139
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5g0139_000-HFL.yaml, hash: 'sha256:4161a8adfbe3c6596faa40da31e6e6f11f4a38bdfda51840c964f3153c7055b5'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5g0139_000-HFL.markers.yaml, hash: 'sha256:46c1d4c142ce32f1f5b88b6e60ca4e704d3781273771878ab858bc7bf7407d45'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5g0139_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 13965
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:aaef09e544304cd7cc0eeda7dec00197a472c2be62578a4d793d6efc27367946
